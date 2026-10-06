@@ -1,0 +1,1965 @@
+[
+  {
+    "id": 1,
+    "level": "easy",
+    "question": "탄소중립은 탄소를 아예 쓰지 않는 것을 뜻한다.",
+    "answer": false,
+    "explanation": "탄소를 전혀 안 쓰는 게 아니라, 배출한 양에서 흡수·제거한 양을 뺀 값을 0으로 만드는 것입니다. '넷제로'라고도 해요.",
+    "active": true,
+    "similarGroup": "carbon-neutral-definition",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 1
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 2,
+    "level": "easy",
+    "question": "지구의 평균 온도가 점점 올라가는 현상을 지구온난화라고 한다.",
+    "answer": true,
+    "explanation": "온실가스가 늘어나면서 지구가 점점 더워지는 현상을 지구온난화라고 합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 2
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 3,
+    "level": "easy",
+    "question": "지구온난화를 일으키는 대표적인 온실가스는 이산화탄소이다.",
+    "answer": true,
+    "explanation": "석탄·석유·천연가스 같은 화석연료를 태울 때 이산화탄소가 많이 나옵니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 3
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 4,
+    "level": "easy",
+    "question": "햇빛은 석탄, 석유와 같은 화석연료이다.",
+    "answer": false,
+    "explanation": "화석연료는 아주 오래전 생물이 땅속에서 변해 만들어진 석탄·석유·천연가스예요. 햇빛은 쓰고 또 써도 없어지지 않는 에너지입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 4
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 5,
+    "level": "easy",
+    "question": "바람(풍력)은 쓰고 또 써도 없어지지 않는 재생에너지이다.",
+    "answer": true,
+    "explanation": "바람, 햇빛, 물, 땅속 열 등은 재생에너지입니다. 전기를 만들 때 온실가스가 거의 나오지 않아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 5
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 6,
+    "level": "easy",
+    "question": "빈 방에 불을 켜 두면 전기를 아낄 수 있다.",
+    "answer": false,
+    "explanation": "안 쓰는 방의 불은 꺼야 전기를 아낄 수 있습니다. 전기를 만들 때 온실가스가 나오는 경우가 많아서 전기를 아끼면 탄소도 줄어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 6
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 7,
+    "level": "easy",
+    "question": "집 근처 가까운 곳은 걷거나 자전거를 타면 온실가스를 거의 내지 않는다.",
+    "answer": true,
+    "explanation": "걷기와 자전거는 온실가스를 내지 않고 건강에도 좋습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 7
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 8,
+    "level": "easy",
+    "question": "나무는 광합성을 하면서 공기 중의 이산화탄소를 흡수한다.",
+    "answer": true,
+    "explanation": "나무는 이산화탄소를 흡수하고 탄소를 몸에 저장합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 8
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 9,
+    "level": "easy",
+    "question": "다 마신 페트병은 일반 쓰레기에 그냥 버리는 것이 가장 좋다.",
+    "answer": false,
+    "explanation": "내용물을 비우고 라벨을 떼어 분리배출하면 재활용이 잘 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 9
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 10,
+    "level": "easy",
+    "question": "일회용 컵 대신 텀블러를 쓰면 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "텀블러를 계속 쓰면 쓰레기와 컵을 만들 때 나오는 온실가스를 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 10
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 11,
+    "level": "easy",
+    "question": "쓰지 않는 전자제품의 플러그를 뽑으면 전기를 아낄 수 있다.",
+    "answer": true,
+    "explanation": "전원이 꺼져 있어도 플러그가 꽂혀 있으면 조금씩 전기가 새는데, 이를 '대기전력'이라고 합니다.",
+    "active": true,
+    "similarGroup": "standby-power",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 11
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 12,
+    "level": "easy",
+    "question": "전기차는 달리는 동안 배기가스가 나온다.",
+    "answer": false,
+    "explanation": "전기차는 달리는 동안 배기가스가 나오지 않습니다. (수소차도 물만 나옵니다.)",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 12
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 13,
+    "level": "easy",
+    "question": "음식을 남기지 않고 먹는 것도 탄소를 줄이는 방법이다.",
+    "answer": true,
+    "explanation": "음식을 키우고 옮기고 만드는 과정에서 온실가스가 나옵니다. 남은 음식이 썩을 때도 온실가스(메탄)가 나와요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 13
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 14,
+    "level": "easy",
+    "question": "여름철 실내 적정 온도는 보통 10도이다.",
+    "answer": false,
+    "explanation": "여름철 실내 적정 온도는 보통 26~28도입니다. 너무 낮추면 전기도 많이 쓰고 몸에도 좋지 않아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 14
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 15,
+    "level": "easy",
+    "question": "태양광 패널은 햇빛을 전기로 바꿔 준다.",
+    "answer": true,
+    "explanation": "태양광 패널이 햇빛을 전기로 바꿔 주는 것이 태양광 발전입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 15
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 16,
+    "level": "easy",
+    "question": "지구의 날은 매년 4월 22일이다.",
+    "answer": true,
+    "explanation": "환경을 지키자는 뜻으로 1970년에 시작된 날입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 16
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 17,
+    "level": "easy",
+    "question": "지구가 계속 더워지면 북극의 얼음은 더 많아진다.",
+    "answer": false,
+    "explanation": "북극 얼음이 줄고, 육지 위 빙하가 녹으면 바다 높이가 올라가 해안 지역이 위험해집니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 17
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 18,
+    "level": "easy",
+    "question": "엘리베이터 대신 계단을 이용하면 전기를 아낄 수 있다.",
+    "answer": true,
+    "explanation": "가까운 층은 계단을 이용하면 전기도 아끼고 운동도 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 18
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 19,
+    "level": "easy",
+    "question": "에너지소비효율등급이 1등급인 가전제품이 전기를 가장 적게 쓴다.",
+    "answer": true,
+    "explanation": "1등급 제품이 같은 일을 하면서 전기를 가장 적게 씁니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 19
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 20,
+    "level": "easy",
+    "question": "'탄소발자국'은 신발에 묻은 검은 자국을 뜻한다.",
+    "answer": false,
+    "explanation": "사람이나 제품이 살아가고 만들어지는 과정에서 나오는 온실가스 양을 '발자국'에 비유한 말입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 20
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 21,
+    "level": "easy",
+    "question": "겨울에 내복이나 두꺼운 옷을 입으면 난방 에너지를 아낄 수 있다.",
+    "answer": true,
+    "explanation": "옷을 따뜻하게 입으면 난방 온도를 낮춰도 괜찮아서 에너지를 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 21
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 22,
+    "level": "easy",
+    "question": "종이는 바닷물로 만들기 때문에 아껴 쓸 필요가 없다.",
+    "answer": false,
+    "explanation": "종이는 나무로 만듭니다. 종이를 아끼면 나무와 숲을 지킬 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 22
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 23,
+    "level": "easy",
+    "question": "자동차 대신 버스나 지하철을 타면 탄소를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "한 사람이 자가용을 탈 때보다, 여러 사람이 함께 타는 대중교통이 한 사람당 온실가스가 훨씬 적습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 23
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 24,
+    "level": "easy",
+    "question": "산소는 온실가스이다.",
+    "answer": false,
+    "explanation": "우리가 숨 쉬는 산소는 온실가스가 아닙니다. 대표적인 온실가스는 이산화탄소, 메탄 등이에요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 24
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 25,
+    "level": "easy",
+    "question": "안 쓰는 물건을 고쳐 쓰면 새로 만들 때보다 온실가스가 더 많이 나온다.",
+    "answer": false,
+    "explanation": "물건은 만들고 옮기는 데 에너지가 듭니다. 고쳐 쓰면 새로 만드는 횟수가 줄어 온실가스도 줄어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 25
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 26,
+    "level": "easy",
+    "question": "우리나라는 2050년까지 탄소중립을 이루는 것을 목표로 한다.",
+    "answer": true,
+    "explanation": "우리나라는 2020년 10월 '2050 탄소중립'을 선언했고, 2021년에 법으로도 정했습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 26
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 27,
+    "level": "easy",
+    "question": "파리협정은 지구 평균기온 상승을 산업화 이전보다 5도 이내로 막자는 약속이다.",
+    "answer": false,
+    "explanation": "파리협정은 온도 상승을 2도보다 훨씬 낮게, 가능하면 1.5도 이내로 막자는 약속입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 27
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 28,
+    "level": "easy",
+    "question": "온실가스는 지구의 열이 우주로 빠져나가지 못하게 잡아 두는 역할을 한다.",
+    "answer": true,
+    "explanation": "온실가스는 담요처럼 지구의 열을 붙잡아 줍니다. 적당하면 필요하지만 너무 많아지면 지구가 더워져요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 28
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 29,
+    "level": "easy",
+    "question": "메탄은 소 같은 가축, 논, 쓰레기 매립지에서 많이 나온다.",
+    "answer": true,
+    "explanation": "소의 트림과 방귀, 벼를 키우는 논, 음식물이 썩는 쓰레기 매립지에서 메탄이 나옵니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 29
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 30,
+    "level": "easy",
+    "question": "LED 전구는 백열전구보다 전기를 더 많이 쓴다.",
+    "answer": false,
+    "explanation": "LED 전구는 백열전구보다 전기를 훨씬 적게 쓰고 오래 갑니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 30
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 31,
+    "level": "easy",
+    "question": "냉장고는 음식을 가득 채우고 문을 자주 열수록 전기를 아낄 수 있다.",
+    "answer": false,
+    "explanation": "너무 꽉 채우면 찬 공기가 잘 돌지 않고, 문을 자주 열면 전기를 더 씁니다. 70% 정도만 채우고 문을 자주 열지 않는 것이 좋아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 31
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 32,
+    "level": "easy",
+    "question": "전기차는 전기를 어떤 방법으로 만들든 온실가스에 주는 영향이 똑같다.",
+    "answer": false,
+    "explanation": "전기차가 쓰는 전기를 석탄으로 만들었는지, 태양광·풍력으로 만들었는지에 따라 온실가스 양이 달라집니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 32
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 33,
+    "level": "easy",
+    "question": "그레타 툰베리는 스웨덴의 청소년 기후 활동가이다.",
+    "answer": true,
+    "explanation": "그레타 툰베리는 2018년에 혼자 시위를 시작했고, 전 세계 청소년이 함께하는 기후행동으로 번졌습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 33
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 34,
+    "level": "easy",
+    "question": "어스아워는 한 시간 동안 불을 끄며 기후위기에 관심을 갖는 행사이다.",
+    "answer": true,
+    "explanation": "3월 마지막 주 토요일 저녁 8시 30분부터 1시간 동안 불을 끄는 세계 행사입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 34
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 35,
+    "level": "easy",
+    "question": "지구가 더워지면 빙하가 녹고 바닷물 부피도 커져서 해수면이 올라간다.",
+    "answer": true,
+    "explanation": "육지의 얼음이 녹아 바다로 흘러들고, 따뜻해진 바닷물은 부피가 커집니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 35
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 36,
+    "level": "easy",
+    "question": "숲의 나무를 베거나 태우면 나무에 저장되어 있던 탄소가 이산화탄소로 나와 지구온난화에 영향을 줄 수 있다.",
+    "answer": true,
+    "explanation": "나무는 탄소를 몸에 저장하고 있어서, 태우거나 썩으면 저장된 탄소가 공기 중으로 나옵니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 36
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 37,
+    "level": "easy",
+    "question": "쇠고기는 채소보다 같은 무게당 온실가스가 훨씬 많이 나온다.",
+    "answer": true,
+    "explanation": "소는 트림과 방귀로 메탄을 내보내고, 사료와 땅도 많이 필요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 37
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 38,
+    "level": "easy",
+    "question": "안 쓰는 앱과 메일, 사진을 정리하는 것도 전기를 아끼는 데 조금은 도움이 될 수 있다.",
+    "answer": true,
+    "explanation": "인터넷과 앱은 데이터센터에서 전기를 쓰며 움직입니다. 작은 습관이지만 많은 사람이 함께하면 도움이 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 38
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 39,
+    "level": "easy",
+    "question": "빨래를 조금씩 자주 돌리는 것이 탄소를 줄이는 좋은 방법이다.",
+    "answer": false,
+    "explanation": "빨래를 모아서 한 번에 돌리면 전기와 물을 덜 쓰고, 가능하면 찬물 세탁과 자연 건조도 도움이 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 39
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 40,
+    "level": "easy",
+    "question": "쓰레기를 줄이는 3R은 줄이기, 다시 쓰기, 재활용이다.",
+    "answer": true,
+    "explanation": "3R은 Reduce(줄이기), Reuse(다시 쓰기), Recycle(재활용)입니다.",
+    "active": true,
+    "similarGroup": "3r",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 40
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 41,
+    "level": "easy",
+    "question": "숲을 많이 심으면 온실가스 배출을 줄이지 않아도 탄소중립을 이룰 수 있다.",
+    "answer": false,
+    "explanation": "숲이 흡수하는 양에는 한계가 있습니다. 배출을 먼저 크게 줄이고, 어쩔 수 없이 남는 배출을 숲 등으로 흡수하는 것이 탄소중립의 방법입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 41
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 42,
+    "level": "easy",
+    "question": "태양광 패널은 만들 때도 온실가스가 나오지만, 오래 쓰면 그보다 훨씬 많은 깨끗한 전기를 만들어 낸다.",
+    "answer": true,
+    "explanation": "태양광 패널은 보통 25~30년 쓰는데, 만들 때 쓴 에너지는 1~3년 정도면 다시 만들어 낸다고 알려져 있습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 42
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 43,
+    "level": "easy",
+    "question": "나무를 심으면 탄소를 흡수하지만, 산불이 나면 저장되어 있던 탄소가 다시 공기 중으로 나올 수 있다.",
+    "answer": true,
+    "explanation": "산불은 나무에 저장된 탄소를 한꺼번에 내보냅니다. 기후변화로 산불이 늘면 더 큰 문제가 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 43
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 44,
+    "level": "easy",
+    "question": "방파제를 쌓고 폭염·홍수 대책을 세우는 것은 기후변화에 대한 '적응'이다.",
+    "answer": true,
+    "explanation": "기후위기 대응에는 원인을 줄이는 '감축'과 피해에 대비하는 '적응'이 모두 필요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 44
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 45,
+    "level": "easy",
+    "question": "탄소중립은 정부만 노력하면 이룰 수 있다.",
+    "answer": false,
+    "explanation": "정부는 제도를, 기업은 기술과 생산 방식을, 개인은 생활 습관을 바꾸는 노력이 모두 필요합니다.",
+    "active": true,
+    "similarGroup": "shared-effort",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 45
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 46,
+    "level": "easy",
+    "question": "제로웨이스트는 쓰레기를 최대한 줄이는 생활 방식이다.",
+    "answer": true,
+    "explanation": "제로웨이스트(Zero Waste)는 '쓰레기 제로'라는 뜻으로, 쓰레기가 생기지 않게 줄이고 다시 쓰는 생활입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 46
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 47,
+    "level": "easy",
+    "question": "쓰레기를 줄이려면 물건을 많이 사서 쌓아 두는 것이 좋다.",
+    "answer": false,
+    "explanation": "꼭 필요한 만큼만 사야 버릴 것도 줄어듭니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 47
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 48,
+    "level": "easy",
+    "question": "장 볼 때 장바구니를 가져가면 비닐봉지 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "장바구니를 여러 번 쓰면 비닐봉지를 새로 만들고 버리는 일이 줄어듭니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 48
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 49,
+    "level": "easy",
+    "question": "쓰레기를 분리해서 배출하면 다시 쓸 수 있는 자원이 된다.",
+    "answer": true,
+    "explanation": "분리배출한 종이, 플라스틱, 유리, 캔은 새 물건의 재료가 되어 자원을 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 49
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 50,
+    "level": "easy",
+    "question": "3R은 쓰레기를 늘리는 세 가지 방법을 말한다.",
+    "answer": false,
+    "explanation": "3R은 줄이기(Reduce), 다시 쓰기(Reuse), 재활용(Recycle)으로, 쓰레기를 줄이는 세 가지 방법입니다.",
+    "active": true,
+    "similarGroup": "3r",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 50
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 51,
+    "level": "easy",
+    "question": "음식을 먹을 만큼만 만들면 음식물 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "남기는 음식이 줄어들면 음식물 쓰레기도 줄고, 음식을 만드는 데 쓰인 에너지도 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 51
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 52,
+    "level": "easy",
+    "question": "다 읽은 신문지는 유리류로 분리배출한다.",
+    "answer": false,
+    "explanation": "신문지, 종이 상자, 책은 종이류로 모아서 배출합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 52
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 53,
+    "level": "easy",
+    "question": "다 쓴 유리병은 유리류로 분리배출한다.",
+    "answer": true,
+    "explanation": "유리병은 내용물을 비우고 유리류로 배출하면 다시 유리병을 만드는 재료가 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 53
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 54,
+    "level": "easy",
+    "question": "다 마신 음료수 캔은 캔류로 분리배출한다.",
+    "answer": true,
+    "explanation": "캔은 속을 비우고 가능하면 찌그러뜨려 캔류로 배출합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 54
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 55,
+    "level": "easy",
+    "question": "손을 닦을 때 손수건을 쓰면 종이타월 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "손수건은 빨아서 여러 번 쓸 수 있어서 일회용품 쓰레기를 줄여 줍니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 55
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 56,
+    "level": "easy",
+    "question": "안 쓰는 물건을 친구와 나누거나 중고로 팔면 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "물건을 오래 쓰고 나눠 쓰면 새 물건을 만들 때 나오는 쓰레기와 온실가스를 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 56
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 57,
+    "level": "easy",
+    "question": "먹다 남은 밥은 종이류로 버린다.",
+    "answer": false,
+    "explanation": "음식물은 음식물 쓰레기로 따로 모아 버려야 사료나 퇴비 등으로 쓸 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 57
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 58,
+    "level": "easy",
+    "question": "쓰레기를 줄이면 지구가 더 더워진다.",
+    "answer": false,
+    "explanation": "쓰레기를 만들고 처리할 때 온실가스가 나옵니다. 쓰레기를 줄이면 지구온난화를 늦출 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 58
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 59,
+    "level": "easy",
+    "question": "쓰레기를 몰래 땅이나 바다에 버려도 괜찮다.",
+    "answer": false,
+    "explanation": "몰래 버린 쓰레기는 땅과 바다를 오염시키고 동물들을 위험하게 합니다. 정해진 곳에 버려야 해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 59
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 60,
+    "level": "easy",
+    "question": "스테인리스나 유리 빨대는 씻어서 여러 번 쓸 수 있다.",
+    "answer": true,
+    "explanation": "씻어서 계속 쓸 수 있는 빨대는 일회용 빨대 쓰레기를 줄여 줍니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 60
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 61,
+    "level": "easy",
+    "question": "양치할 때 컵에 물을 받아 쓰면 물을 아낄 수 있다.",
+    "answer": true,
+    "explanation": "컵을 쓰면 물을 아낄 수 있고, 물을 깨끗하게 만들고 보내는 데 드는 에너지도 줄어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 61
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 62,
+    "level": "easy",
+    "question": "물건을 살 때 포장이 화려한 제품을 고르면 쓰레기를 줄일 수 있다.",
+    "answer": false,
+    "explanation": "포장이 적은 제품을 고르면 버릴 포장 쓰레기가 줄어듭니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 62
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 63,
+    "level": "easy",
+    "question": "다 쓴 샴푸 통에 샴푸를 다시 채워 쓰면 쓰레기가 늘어난다.",
+    "answer": false,
+    "explanation": "리필(refill)을 하면 새 용기를 사지 않아도 되어 플라스틱 쓰레기를 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 63
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 64,
+    "level": "easy",
+    "question": "샤워 시간을 줄이면 물과 에너지를 아낄 수 있다.",
+    "answer": true,
+    "explanation": "따뜻한 물을 만들 때 에너지가 들기 때문에, 샤워 시간을 줄이면 물과 에너지를 함께 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 64
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 65,
+    "level": "easy",
+    "question": "플라스틱은 땅에 묻어도 잘 썩지 않는다.",
+    "answer": true,
+    "explanation": "플라스틱은 수백 년이 지나도 잘 썩지 않아서 쓰레기로 오래 남습니다. 그래서 줄이고 재활용하는 것이 중요해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 65
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 66,
+    "level": "easy",
+    "question": "바다에 버려진 플라스틱은 바다 동물에게 위험하지 않다.",
+    "answer": false,
+    "explanation": "바다 동물이 플라스틱을 먹이로 착각해 먹거나 비닐에 몸이 걸려 다치는 일이 생겨요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 66
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 67,
+    "level": "easy",
+    "question": "걸으면서 쓰레기를 줍는 활동을 '플로깅'이라고 한다.",
+    "answer": true,
+    "explanation": "플로깅(줍깅)은 운동하면서 쓰레기를 줍는 활동으로, 운동과 환경 보호를 함께 할 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 67
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 68,
+    "level": "easy",
+    "question": "택배 상자는 테이프와 송장을 떼지 않고 그대로 버려도 된다.",
+    "answer": false,
+    "explanation": "테이프와 송장을 떼고 납작하게 접어 종이류로 배출하면 재활용이 잘 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 68
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 69,
+    "level": "easy",
+    "question": "다 마신 우유팩은 일반 쓰레기에 버리는 것이 좋다.",
+    "answer": false,
+    "explanation": "우유팩은 헹궈서 펼쳐 말린 뒤 종이팩으로 따로 모으면 휴지 등으로 다시 만들 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 69
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 70,
+    "level": "easy",
+    "question": "입지 않는 깨끗한 헌 옷은 땅에 묻는 것이 좋다.",
+    "answer": false,
+    "explanation": "깨끗한 헌 옷은 기부하거나 의류수거함에 넣어 다른 사람이 다시 입을 수 있게 해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 70
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 71,
+    "level": "easy",
+    "question": "개인 컵을 가져가면 음료 값을 깎아 주는 가게들이 있다.",
+    "answer": true,
+    "explanation": "일회용 컵을 줄이기 위해 개인 컵(텀블러)을 가져오면 할인해 주는 가게가 많이 있습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 71
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 72,
+    "level": "easy",
+    "question": "장 보기 전에 냉장고를 확인하면 음식물 쓰레기를 줄이는 데 도움이 된다.",
+    "answer": true,
+    "explanation": "집에 있는 음식을 확인하면 같은 음식을 또 사서 버리는 일을 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 72
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 73,
+    "level": "easy",
+    "question": "'고기 없는 날'을 실천하면 온실가스가 오히려 늘어난다.",
+    "answer": false,
+    "explanation": "고기를 키울 때는 온실가스가 많이 나옵니다. 하루라도 고기를 덜 먹으면 온실가스를 줄이는 데 도움이 돼요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 73
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 74,
+    "level": "easy",
+    "question": "멀리서 옮겨 온 음식일수록 운송 때 나오는 온실가스가 적다.",
+    "answer": false,
+    "explanation": "음식이 이동하는 거리가 짧을수록 운송할 때 나오는 온실가스가 줄어듭니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 74
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 75,
+    "level": "easy",
+    "question": "집에서 용기를 가져가 필요한 만큼만 사는 가게를 제로웨이스트 가게(알맹이 가게)라고 한다.",
+    "answer": true,
+    "explanation": "용기를 가져가 필요한 만큼만 사면 포장 쓰레기를 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 75
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 76,
+    "level": "easy",
+    "question": "쓰레기를 태우면 이산화탄소가 나올 수 있다.",
+    "answer": true,
+    "explanation": "쓰레기를 태울 때 이산화탄소 같은 온실가스가 나옵니다. 그래서 쓰레기를 먼저 줄이는 것이 중요해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 76
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 77,
+    "level": "easy",
+    "question": "다 쓴 병을 씻어서 다시 쓰는 것은 3R 중 재활용(Recycle)이다.",
+    "answer": false,
+    "explanation": "그대로 다시 쓰는 것은 'Reuse(다시 쓰기)'입니다. 재활용은 재료로 다시 만드는 것을 말해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 77
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 78,
+    "level": "easy",
+    "question": "소풍 갈 때 다회용 도시락통과 손수건을 쓰면 일회용 쓰레기를 줄일 수 있다.",
+    "answer": true,
+    "explanation": "다회용품을 쓰면 일회용 쓰레기를 거의 만들지 않아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 78
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 79,
+    "level": "easy",
+    "question": "종이를 아껴 쓰면 나무와 숲을 지키는 데 도움이 된다.",
+    "answer": true,
+    "explanation": "종이는 나무로 만들기 때문에, 종이를 아끼면 나무와 숲을 지킬 수 있습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 79
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 80,
+    "level": "easy",
+    "question": "환경을 지키려면 정부, 기업, 우리 모두 함께 노력해야 한다.",
+    "answer": true,
+    "explanation": "정부는 제도를, 기업은 만드는 방식을, 우리는 생활 습관을 바꾸는 노력이 모두 필요해요.",
+    "active": true,
+    "similarGroup": "shared-effort",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 80
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 81,
+    "level": "medium",
+    "question": "기업이 내보낼 수 있는 온실가스의 양을 정하고 그 권리를 사고팔게 하는 제도를 탄소배출권거래제라고 한다.",
+    "answer": true,
+    "explanation": "정해진 양보다 적게 배출한 기업은 남은 권리를 팔 수 있고, 더 많이 배출한 기업은 사야 합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 81
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 82,
+    "level": "medium",
+    "question": "탄소중립 실천(전기 절약, 텀블러 사용 등)을 하면 벌금을 내게 하는 제도가 탄소중립포인트제이다.",
+    "answer": false,
+    "explanation": "탄소중립포인트제는 실천하면 포인트나 혜택을 주는 제도입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 82
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 83,
+    "level": "medium",
+    "question": "푸드마일리지는 식재료가 생산된 곳에서 내 식탁까지 이동한 거리를 뜻한다.",
+    "answer": true,
+    "explanation": "이동 거리가 멀수록 운송하면서 온실가스가 많이 나옵니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 83
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 84,
+    "level": "medium",
+    "question": "제로에너지 건축물은 전기를 전혀 쓸 수 없는 건물이다.",
+    "answer": false,
+    "explanation": "단열을 잘하고 태양광 등으로 에너지를 직접 만들어 쓰는 양을 크게 줄인 건물입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 84
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 85,
+    "level": "medium",
+    "question": "그린워싱은 실제로는 환경에 도움이 안 되는데 친환경인 것처럼 홍보하는 것이다.",
+    "answer": true,
+    "explanation": "'초록(Green)'과 '세탁(Whitewashing)'을 합친 말로, 겉으로만 친환경인 척하는 것을 말합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 85
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 86,
+    "level": "medium",
+    "question": "자원순환은 쓰고 나면 모두 버리는 것을 뜻한다.",
+    "answer": false,
+    "explanation": "자원순환은 물건을 쓰고 다시 쓰고 재활용해서 자원을 계속 돌려 쓰는 방식입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 86
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 87,
+    "level": "medium",
+    "question": "버려지는 물건을 새롭게 만들어 더 가치 있게 쓰는 것을 업사이클링(새활용)이라고 한다.",
+    "answer": true,
+    "explanation": "못 쓰는 물건에 새 디자인과 쓰임을 더해 더 가치 있게 만드는 활동입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 87
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 88,
+    "level": "medium",
+    "question": "음식물이 잔뜩 묻은 일회용 포장 용기는 재활용하기 어렵다.",
+    "answer": true,
+    "explanation": "음식물이 묻은 용기는 재활용이 어려워요. 깨끗이 씻어서 배출하는 것이 중요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 88
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 89,
+    "level": "medium",
+    "question": "페트병 라벨은 떼지 않고 그대로 배출해도 재활용에 아무 문제가 없다.",
+    "answer": false,
+    "explanation": "라벨과 병은 재질이 달라서 따로 떼어 배출해야 깨끗한 재료로 다시 만들 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 89
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 90,
+    "level": "medium",
+    "question": "다 마신 종이컵은 헹궈서 종이컵끼리 따로 모아 배출하는 것이 좋다.",
+    "answer": true,
+    "explanation": "종이컵 안쪽의 얇은 코팅 때문에 일반 종이와 섞지 않고 따로 모으면 재활용에 도움이 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 90
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 91,
+    "level": "medium",
+    "question": "닭 뼈는 음식물 쓰레기로 버려야 한다.",
+    "answer": false,
+    "explanation": "뼈, 조개 껍데기, 달걀 껍데기는 사료나 퇴비로 쓰기 어려워서 일반 쓰레기로 버립니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 91
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 92,
+    "level": "medium",
+    "question": "다 쓴 건전지는 일반 쓰레기에 버려도 된다.",
+    "answer": false,
+    "explanation": "건전지에는 해로운 물질이 들어 있어서 폐건전지 수거함에 따로 모아야 합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 92
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 93,
+    "level": "medium",
+    "question": "쓰레기 매립지에서 음식물이 썩을 때는 메탄이 나온다.",
+    "answer": true,
+    "explanation": "메탄은 이산화탄소보다 열을 훨씬 많이 가두는 온실가스예요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 93
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 94,
+    "level": "medium",
+    "question": "플라스틱은 주로 석유로 만든다.",
+    "answer": true,
+    "explanation": "플라스틱을 줄이면 석유도 아끼고 온실가스도 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 94
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 95,
+    "level": "medium",
+    "question": "미세플라스틱은 크기가 1m가 넘는 큰 플라스틱 덩어리를 말한다.",
+    "answer": false,
+    "explanation": "미세플라스틱은 크기가 5mm 이하인 아주 작은 플라스틱 조각입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 95
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 96,
+    "level": "medium",
+    "question": "분리배출한 음식물 쓰레기는 퇴비나 사료 등으로 다시 쓸 수 있다.",
+    "answer": true,
+    "explanation": "음식물 쓰레기도 따로 모으면 자원으로 다시 쓸 수 있습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 96
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 97,
+    "level": "medium",
+    "question": "지열 에너지는 땅속의 열을 이용하는 재생에너지이다.",
+    "answer": true,
+    "explanation": "땅속의 뜨거운 열을 이용해 전기나 난방을 하는 에너지입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 97
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 98,
+    "level": "medium",
+    "question": "대기전력은 전원을 켜야만 생기는 전기 낭비이다.",
+    "answer": false,
+    "explanation": "대기전력은 전원을 꺼도 플러그가 꽂혀 있으면 조금씩 새는 전기입니다.",
+    "active": true,
+    "similarGroup": "standby-power",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 98
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 99,
+    "level": "medium",
+    "question": "쓰레기 문제를 해결할 때는 재활용보다 먼저 덜 쓰고 덜 버리는 것을 생각해야 한다.",
+    "answer": true,
+    "explanation": "재활용보다 먼저 쓰레기가 생기지 않게 줄이는 것이 가장 좋은 방법입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 99
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 100,
+    "level": "medium",
+    "question": "에코백을 여러 개 사서 쌓아 두는 것이 환경에 가장 좋다.",
+    "answer": false,
+    "explanation": "에코백도 만들 때 자원과 에너지가 듭니다. 새로 사기보다 가진 가방을 오래 쓰는 것이 가장 좋아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 100
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 101,
+    "level": "medium",
+    "question": "제품 포장의 분리배출 마크는 재질과 분리배출 방법을 알려 준다.",
+    "answer": true,
+    "explanation": "마크를 보면 플라스틱, 종이, 비닐 등 재질을 알 수 있어 알맞게 분리배출할 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 101
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 102,
+    "level": "medium",
+    "question": "깨끗이 비운 스티로폼은 음식물 쓰레기로 버린다.",
+    "answer": false,
+    "explanation": "음식물이나 테이프를 떼고 깨끗하게 모아 스티로폼으로 따로 배출하면 재활용됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 102
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 103,
+    "level": "medium",
+    "question": "깨끗한 비닐은 비닐류로 모아서 배출한다.",
+    "answer": true,
+    "explanation": "음식물 등이 많이 묻은 비닐은 일반 쓰레기로 버려요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 103
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 104,
+    "level": "medium",
+    "question": "남은 식용유는 하수구에 부어도 괜찮다.",
+    "answer": false,
+    "explanation": "기름은 물을 오염시키고 굳으면 하수관을 막을 수 있어요. 신문지나 휴지에 흡수시켜 일반 쓰레기로 버리세요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 104
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 105,
+    "level": "medium",
+    "question": "다 쓴 냉장고나 세탁기 같은 큰 가전제품은 폐가전 무상 방문수거 서비스를 이용할 수 있다.",
+    "answer": true,
+    "explanation": "무상 방문수거를 신청하면 재활용할 수 있도록 가져가 줍니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 105
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 106,
+    "level": "medium",
+    "question": "에어컨 필터를 깨끗이 청소하면 전기를 아끼는 데 도움이 된다.",
+    "answer": true,
+    "explanation": "필터가 먼지로 막히면 에어컨이 힘들게 일해야 해서 전기를 더 씁니다. 자주 청소하면 효율이 좋아져요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 106
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 107,
+    "level": "medium",
+    "question": "에어컨과 선풍기를 함께 쓰면 공기가 잘 돌아 시원함을 더 빨리 느낄 수 있다.",
+    "answer": true,
+    "explanation": "선풍기로 찬 공기를 돌려 주면 설정 온도를 높여도 시원해서 전기를 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 107
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 108,
+    "level": "medium",
+    "question": "고장 난 물건은 바로 버리고 새로 사는 것이 쓰레기를 줄이는 데 가장 좋다.",
+    "answer": false,
+    "explanation": "고쳐서 계속 쓰면 새 물건을 만들 때 나오는 쓰레기와 온실가스를 줄일 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 108
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 109,
+    "level": "medium",
+    "question": "여러 사람이 한 자동차를 함께 타는 카풀은 한 사람당 온실가스를 줄여 준다.",
+    "answer": true,
+    "explanation": "한 대의 차에 여러 명이 타면 한 사람당 온실가스가 줄어듭니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 109
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 110,
+    "level": "medium",
+    "question": "생분해 플라스틱은 알맞은 조건에서 미생물에 의해 분해될 수 있다.",
+    "answer": true,
+    "explanation": "그래도 일회용품은 줄이는 것이 먼저예요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 110
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 111,
+    "level": "medium",
+    "question": "도시에 숲과 공원을 만들면 이산화탄소를 흡수하고 여름 더위를 줄이는 데 도움이 된다.",
+    "answer": true,
+    "explanation": "나무는 이산화탄소를 흡수하고 그늘과 증발로 도시의 열을 식혀 줍니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 111
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 112,
+    "level": "medium",
+    "question": "같은 거리를 갈 때 걷기가 혼자 타는 자가용보다 온실가스가 더 많이 나온다.",
+    "answer": false,
+    "explanation": "걷기와 자전거는 거의 배출이 없고, 혼자 타는 자가용이 가장 많아요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 112
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 113,
+    "level": "medium",
+    "question": "멀티탭 스위치를 꺼 두면 대기전력을 줄일 수 있다.",
+    "answer": true,
+    "explanation": "플러그를 일일이 뽑지 않아도 대기전력을 줄일 수 있어요.",
+    "active": true,
+    "similarGroup": "standby-power",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 113
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 114,
+    "level": "medium",
+    "question": "수돗물을 아끼면 정수와 하수 처리에 드는 전기도 줄일 수 있다.",
+    "answer": true,
+    "explanation": "물을 정수하고 집까지 보내고, 쓴 물을 처리하는 데 전기가 쓰입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 114
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 115,
+    "level": "medium",
+    "question": "대형마트에서 비닐봉지를 공짜로 주지 않는 것은 일회용 비닐봉지 쓰레기를 줄이기 위해서이다.",
+    "answer": true,
+    "explanation": "돈을 내거나 장바구니를 쓰게 해서 일회용 비닐봉지 쓰레기를 줄이려는 것입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 115
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 116,
+    "level": "medium",
+    "question": "재생에너지로 만든 전기로 물을 분해해 만든 수소를 그린 수소라고 한다.",
+    "answer": true,
+    "explanation": "그린 수소는 만드는 과정에서 이산화탄소가 거의 나오지 않아 '깨끗한 수소'라고 불립니다.",
+    "active": true,
+    "similarGroup": "hydrogen-colors",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 116
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 117,
+    "level": "medium",
+    "question": "RE100은 기업이 쓰는 전기의 10%만 재생에너지로 채우자는 캠페인이다.",
+    "answer": false,
+    "explanation": "RE100은 'Renewable Electricity 100%'의 줄임말로, 전기를 100% 재생에너지로 채우겠다는 약속입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 117
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 118,
+    "level": "medium",
+    "question": "갯벌, 염습지, 잘피 같은 바다 생태계가 저장하는 탄소를 블루카본이라고 한다.",
+    "answer": true,
+    "explanation": "바다와 해안 생태계가 저장하는 탄소를 '블루카본'이라고 합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 118
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 119,
+    "level": "medium",
+    "question": "빗물을 모아 쓰면 수돗물을 아끼는 데 도움이 된다.",
+    "answer": true,
+    "explanation": "화단 물주기나 청소에 빗물을 쓰면 수돗물을 덜 쓰게 되고, 물을 만들고 보내는 데 드는 에너지도 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 119
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 120,
+    "level": "medium",
+    "question": "전기밥솥으로 밥을 한 뒤 보온을 오래 켜 두면 전기를 많이 쓴다.",
+    "answer": true,
+    "explanation": "보온을 오래 켜 두면 계속 전기를 씁니다. 먹을 만큼만 하고 남은 밥은 냉동해 두면 전기를 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 120
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 121,
+    "level": "medium",
+    "question": "바다가 이산화탄소를 많이 흡수하면 바닷물이 산성 쪽으로 변해 조개와 산호가 살기 힘들어질 수 있다.",
+    "answer": true,
+    "explanation": "이를 '해양 산성화'라고 합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 121
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 122,
+    "level": "medium",
+    "question": "온실가스는 모두 사람이 만들어 낸 것이어서 자연에는 전혀 없다.",
+    "answer": false,
+    "explanation": "온실가스는 자연에도 원래 있었고, 덕분에 지구가 따뜻하게 유지됩니다. 문제는 사람 때문에 너무 많아졌다는 점이에요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 122
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 123,
+    "level": "medium",
+    "question": "ESG는 기업이 환경, 사회, 지배구조를 함께 챙기는 경영을 뜻한다.",
+    "answer": true,
+    "explanation": "Environment, Social, Governance의 첫 글자입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 123
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 124,
+    "level": "medium",
+    "question": "파리협정은 1997년에 채택되었다.",
+    "answer": false,
+    "explanation": "파리협정은 2015년에 채택되었습니다. 1997년에 채택된 것은 교토의정서예요.",
+    "active": true,
+    "similarGroup": "kyoto-protocol",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 124
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 125,
+    "level": "medium",
+    "question": "태양광 발전은 밤이나 비 오는 날에도 낮과 똑같은 양의 전기를 만든다.",
+    "answer": false,
+    "explanation": "태양광은 햇빛이 있어야 전기를 만들 수 있어서 밤에는 만들지 못하고, 흐린 날이나 비 오는 날에는 양이 줄어듭니다. 풍력도 바람이 약하면 전기가 적게 만들어져요. 그래서 남는 전기를 저장해 두는 장치(ESS)와 함께 쓰는 것이 중요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 125
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 126,
+    "level": "medium",
+    "question": "오존층에 구멍이 생기는 것이 지구온난화의 가장 큰 원인이다.",
+    "answer": false,
+    "explanation": "오존층 파괴는 프레온가스 때문에 생기는 별개의 문제이고, 지구온난화는 이산화탄소 같은 온실가스가 열을 가두어 생깁니다. (둘 다 해결해야 할 환경 문제입니다.)",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 126
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 127,
+    "level": "medium",
+    "question": "온실가스가 전혀 없다면 지구 평균기온은 약 영하 18도로 훨씬 낮아진다.",
+    "answer": true,
+    "explanation": "온실가스는 적당하면 지구를 따뜻하게 지켜 주는 꼭 필요한 존재입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 127
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 128,
+    "level": "medium",
+    "question": "지구 온도가 1.5도 오를 때보다 2도 오를 때 폭염과 산호초 피해 같은 위험이 더 크다고 알려져 있다.",
+    "answer": true,
+    "explanation": "IPCC는 0.5도 차이라도 폭염, 해수면 상승, 산호초 피해가 더 크게 늘어난다고 설명합니다. 그래서 1.5도 목표가 중요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 128
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 129,
+    "level": "medium",
+    "question": "스마트그리드는 전기의 생산과 사용 정보를 주고받으며 전기를 효율적으로 쓰게 하는 전력망이다.",
+    "answer": true,
+    "explanation": "날씨에 따라 변하는 태양광·풍력 전기를 잘 섞어 쓰고 낭비를 줄이는 데 도움을 줍니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 129
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 130,
+    "level": "medium",
+    "question": "탄소상쇄에만 의지하면 직접 배출을 줄이지 않아도 충분하다.",
+    "answer": false,
+    "explanation": "상쇄에만 기대지 말고 먼저 직접 줄이는 것이 중요합니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 130
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 131,
+    "level": "hard",
+    "question": "탄소중립은 배출을 줄이고 남는 배출은 흡수·제거해서 실질 배출을 0으로 맞추는 것이다.",
+    "answer": true,
+    "explanation": "온실가스 배출을 최대한 줄이고, 남는 배출은 숲이나 기술로 흡수·제거합니다.",
+    "active": true,
+    "similarGroup": "carbon-neutral-definition",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 131
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 132,
+    "level": "hard",
+    "question": "알루미늄 캔을 재활용하면 새로 만드는 것보다 에너지를 크게 아낄 수 있다.",
+    "answer": true,
+    "explanation": "알루미늄은 광석에서 새로 만들 때 전기가 아주 많이 들어서, 재활용하면 에너지를 크게 아낄 수 있어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 132
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 133,
+    "level": "hard",
+    "question": "식품의 소비기한은 가게에서 팔 수 있는 기한이다.",
+    "answer": false,
+    "explanation": "소비기한은 정해진 방법대로 보관했을 때 먹어도 안전에 이상이 없는 기한이에요. 가게에서 팔 수 있는 기한은 '유통기한'이고요. 우리나라는 2023년부터 소비기한 표시제를 시행해 아직 먹을 수 있는 음식이 버려지는 일을 줄이고 있어요. 단, 보관 방법은 꼭 지켜야 해요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 133
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 134,
+    "level": "hard",
+    "question": "석탄 화력발전은 태양광 발전보다 같은 전기를 만들 때 이산화탄소가 더 많이 나온다.",
+    "answer": true,
+    "explanation": "석탄 화력발전은 이산화탄소가 가장 많이 나오는 방식 중 하나입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 134
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 135,
+    "level": "hard",
+    "question": "낡은 청바지를 버리고 새 청바지를 사는 것은 업사이클링의 예이다.",
+    "answer": false,
+    "explanation": "업사이클링은 낡은 청바지로 새 가방을 만드는 것처럼 버려질 물건을 새로운 쓰임으로 바꾸는 것입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 135
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 136,
+    "level": "hard",
+    "question": "재활용품을 한꺼번에 섞어서 버리면 재활용이 더 잘 된다.",
+    "answer": false,
+    "explanation": "종류별로 나누지 않으면 골라내기 어려워 결국 버려지는 경우가 많습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 136
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 137,
+    "level": "hard",
+    "question": "플라스틱 쓰레기는 태우지 않고 땅에 묻기만 하면 환경에 아무 문제가 없다.",
+    "answer": false,
+    "explanation": "플라스틱은 오래 썩지 않아 땅과 물을 오염시킬 수 있고, 묻을 땅도 부족해집니다. 줄이고 재활용하는 것이 먼저예요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 137
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 138,
+    "level": "hard",
+    "question": "EU의 탄소국경조정제도(CBAM)는 탄소를 많이 내며 만든 수입품에 사실상 탄소 비용을 매기는 제도이다.",
+    "answer": true,
+    "explanation": "철강, 알루미늄, 시멘트, 비료, 전기, 수소 등을 EU에 수출하는 기업이 영향을 받습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 138
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 139,
+    "level": "hard",
+    "question": "생산자책임재활용제도(EPR)는 제품을 만든 기업이 재활용 책임을 지게 하는 제도이다.",
+    "answer": true,
+    "explanation": "기업이 재활용까지 책임지게 하면 처음부터 재활용하기 쉬운 포장으로 만들게 됩니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 139
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 140,
+    "level": "hard",
+    "question": "쓰레기 종량제는 쓰레기를 많이 버릴수록 요금이 싸지는 제도이다.",
+    "answer": false,
+    "explanation": "버리는 양만큼 요금을 내게 해서 쓰레기를 덜 만들고 분리배출을 많이 하도록 하는 제도입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 140
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 141,
+    "level": "hard",
+    "question": "메탄은 100년 동안 같은 양의 이산화탄소보다 열을 약 25~30배 가둔다.",
+    "answer": true,
+    "explanation": "메탄은 공기 중에 머무는 기간은 짧지만 열을 훨씬 많이 가둡니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 141
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 142,
+    "level": "hard",
+    "question": "아산화질소는 질소비료를 쓰는 농업에서 많이 나온다.",
+    "answer": true,
+    "explanation": "논밭에 뿌린 질소비료에서 아산화질소가 나옵니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 142
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 143,
+    "level": "hard",
+    "question": "산업화 이전과 비교해 지구 평균기온은 지금까지 약 10도 올랐다.",
+    "answer": false,
+    "explanation": "IPCC에 따르면 약 1.1도 올랐습니다. 파리협정의 1.5도 목표까지 얼마 남지 않았어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 143
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 144,
+    "level": "hard",
+    "question": "사람이 내보낸 이산화탄소의 절반 조금 넘는 양을 숲, 토양, 바다 등이 흡수한다.",
+    "answer": true,
+    "explanation": "나머지는 공기 중에 남아 이산화탄소 농도를 계속 높입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 144
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 145,
+    "level": "hard",
+    "question": "교토의정서는 선진국에 온실가스 감축 의무를 처음 정한 국제 약속이다.",
+    "answer": true,
+    "explanation": "1997년 일본 교토에서 채택되었습니다.",
+    "active": true,
+    "similarGroup": "kyoto-protocol",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 145
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 146,
+    "level": "hard",
+    "question": "우리나라는 2030년까지 2018년보다 온실가스를 40% 줄이는 것을 목표로 한다.",
+    "answer": true,
+    "explanation": "2018년 배출량을 기준으로 2030년까지 40%를 줄이는 목표(NDC)입니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 146
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 147,
+    "level": "hard",
+    "question": "탄소중립·녹색성장 기본법은 2022년에 시행되었다.",
+    "answer": true,
+    "explanation": "2021년 9월 만들어졌고 2022년 3월부터 시행되었습니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 147
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 148,
+    "level": "hard",
+    "question": "블루 수소는 재생에너지만으로 물을 분해해 만든 수소이다.",
+    "answer": false,
+    "explanation": "블루 수소는 천연가스로 만들 때 나오는 이산화탄소를 포집·저장한 수소입니다. 재생에너지로 만든 것은 그린 수소예요.",
+    "active": true,
+    "similarGroup": "hydrogen-colors",
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 148
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 149,
+    "level": "hard",
+    "question": "우리나라 온실가스 배출은 농업 부문에서 가장 많이 나온다.",
+    "answer": false,
+    "explanation": "우리나라는 에너지 부문(전기·열 생산, 공장, 수송, 건물 등)이 전체의 약 87%로 가장 큽니다.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 149
+    },
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": 150,
+    "level": "hard",
+    "question": "전기를 만드는 데 쓰는 재생에너지 비율이 높아질수록, 전기를 쓸 때 나오는 온실가스는 줄어든다.",
+    "answer": true,
+    "explanation": "석탄이나 가스로 전기를 만들면 이산화탄소가 많이 나오지만, 태양광·풍력 같은 재생에너지는 전기를 만들 때 온실가스가 거의 나오지 않습니다. 그래서 재생에너지 비율이 높아지면 같은 전기를 써도 온실가스가 줄어요.",
+    "active": true,
+    "source": {
+      "document": "환경·자원순환·제로웨이스트 탄소중립 O/X 퀴즈 150문항",
+      "number": 150
+    },
+    "updatedAt": "2026-10-06"
+  }
+]
