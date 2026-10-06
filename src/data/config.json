@@ -1,0 +1,29 @@
+{
+  "title": "지구를 위한 OX 퀴즈",
+  "subtitle": "내가 아는 환경상식, 어디까지 맞을까?",
+  "eventName": "",
+  "logoUrl": "",
+  "questionCount": 10,
+  "modes": [
+    {
+      "id": "easy",
+      "label": "쉬움",
+      "emoji": "🌱",
+      "description": "생활 실천과 기본 개념",
+      "levels": ["easy"]
+    },
+    {
+      "id": "advanced",
+      "label": "조금 어려움",
+      "emoji": "🌳",
+      "description": "자원순환·환경 상식과 제도·개념",
+      "levels": ["medium", "hard"]
+    }
+  ],
+  "resultLabels": [
+    { "minPercent": 0, "emoji": "🌱", "label": "환경 새싹", "message": "오늘 새롭게 알게 된 환경상식이 많았어요! 해설을 다시 읽어보면 금방 늘어요." },
+    { "minPercent": 40, "emoji": "🌿", "label": "초록 실천가", "message": "생활 속 실천의 기본을 잘 알고 있어요. 조금만 더 알면 지구 지킴이!" },
+    { "minPercent": 70, "emoji": "🌳", "label": "지구 지킴이", "message": "환경상식이 탄탄하시네요! 헷갈린 문제는 해설을 다시 읽어보세요." },
+    { "minPercent": 90, "emoji": "🌍", "label": "탄소중립 고수", "message": "주변에 문제를 내도 될 만큼 잘 알고 있어요. 다른 난이도에도 도전해 보세요!" }
+  ]
+}
