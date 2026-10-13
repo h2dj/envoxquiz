@@ -147,13 +147,6 @@ h1:focus {
   border-color: var(--yellow);
 }
 
-.mode-card.is-locked {
-  background: var(--surface);
-  color: var(--muted);
-  border: 2px dashed var(--line);
-  box-shadow: none;
-}
-
 .mode-emoji {
   font-size: 36px;
   line-height: 1;
