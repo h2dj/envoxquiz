@@ -1,8 +1,16 @@
 import { useEffect, useMemo, useState } from 'react';
 import rawQuestions from './data/questions.json';
 import config from './data/config.json';
-import { advance, answerCurrent, createQuiz, isRestorable, phaseOf, validateQuestions } from './lib/quiz.js';
-import { clearState, loadState, saveState } from './lib/storage.js';
+import {
+  advance,
+  answerCurrent,
+  createQuiz,
+  isModeUnlocked,
+  isRestorable,
+  phaseOf,
+  validateQuestions,
+} from './lib/quiz.js';
+import { clearState, loadCompleted, loadState, saveCompleted, saveState } from './lib/storage.js';
 import Home from './components/Home.jsx';
 import Question from './components/Question.jsx';
 import Feedback from './components/Feedback.jsx';
@@ -19,23 +27,36 @@ function restore() {
 
 export default function App() {
   const [quiz, setQuiz] = useState(restore);
+  const [completed, setCompleted] = useState(loadCompleted);
 
   useEffect(() => {
     if (quiz) saveState(quiz);
     else clearState();
   }, [quiz]);
 
+  const finishedModeId = quiz?.completedAt ? quiz.modeId : null;
+  useEffect(() => {
+    if (finishedModeId && !completed.includes(finishedModeId)) {
+      const next = [...completed, finishedModeId];
+      setCompleted(next);
+      saveCompleted(next);
+    }
+  }, [finishedModeId, completed]);
+
+  const isUnlocked = (m) => isModeUnlocked(m, completed);
+
   const mode = useMemo(() => config.modes.find((m) => m.id === quiz?.modeId), [quiz?.modeId]);
 
   const start = (modeId) => {
     const next = config.modes.find((m) => m.id === modeId);
+    if (!next || !isUnlocked(next)) return;
     setQuiz(createQuiz(next, questions, config.questionCount));
   };
   const goHome = () => setQuiz(null);
 
   let screen;
   if (!quiz) {
-    screen = <Home config={config} onStart={start} />;
+    screen = <Home config={config} isUnlocked={isUnlocked} onStart={start} />;
   } else {
     const phase = phaseOf(quiz);
     const current = questionsById.get(quiz.questionIds[quiz.currentIndex]);
@@ -68,6 +89,7 @@ export default function App() {
           quiz={quiz}
           mode={mode}
           modes={config.modes}
+          isUnlocked={isUnlocked}
           labels={config.resultLabels}
           questionsById={questionsById}
           onStart={start}

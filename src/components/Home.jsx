@@ -1,6 +1,6 @@
 import useFocusOnMount from './useFocusOnMount.js';
 
-export default function Home({ config, onStart }) {
+export default function Home({ config, isUnlocked, onStart }) {
   const titleRef = useFocusOnMount();
   return (
     <section className="screen home">
@@ -11,16 +11,26 @@ export default function Home({ config, onStart }) {
       </div>
       <p className="home-guide">난이도를 골라 {config.questionCount}문제에 도전해 보세요.</p>
       <div className="mode-list">
-        {config.modes.map((mode) => (
-          <button key={mode.id} type="button" className={`mode-card mode-${mode.id}`} onClick={() => onStart(mode.id)}>
-            <span className="mode-emoji" aria-hidden="true">{mode.emoji}</span>
-            <span className="mode-text">
-              <span className="mode-label">{mode.label}</span>
-              <span className="mode-desc">{mode.description}</span>
-            </span>
-            <span className="mode-count">{config.questionCount}문제</span>
-          </button>
-        ))}
+        {config.modes.map((mode) =>
+          isUnlocked(mode) ? (
+            <button key={mode.id} type="button" className={`mode-card mode-${mode.id}`} onClick={() => onStart(mode.id)}>
+              <span className="mode-emoji" aria-hidden="true">{mode.emoji}</span>
+              <span className="mode-text">
+                <span className="mode-label">{mode.label}</span>
+                <span className="mode-desc">{mode.description}</span>
+              </span>
+              <span className="mode-count">{config.questionCount}문제</span>
+            </button>
+          ) : (
+            <div key={mode.id} className="mode-card is-locked">
+              <span className="mode-emoji" aria-hidden="true">🔒</span>
+              <span className="mode-text">
+                <span className="mode-label">{mode.label}</span>
+                <span className="mode-desc">{mode.lockedHint}</span>
+              </span>
+            </div>
+          ),
+        )}
       </div>
     </section>
   );

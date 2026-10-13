@@ -1,4 +1,4 @@
-export const LEVELS = ['easy', 'medium', 'hard'];
+export const LEVELS = ['easy', 'medium', 'hard', 'expert'];
 
 // 앱 시작 시 문항 데이터를 검증하고, 출제에 쓸 수 없는 문항은 제외한다.
 export function validateQuestions(raw) {
@@ -124,4 +124,9 @@ export function isRestorable(state, questionsById, modes) {
     return false;
   }
   return true;
+}
+
+// unlockedBy가 있는 모드는 그 모드를 한 번 끝까지 풀어야 열린다.
+export function isModeUnlocked(mode, completedModeIds) {
+  return !mode.unlockedBy || completedModeIds.includes(mode.unlockedBy);
 }
