@@ -34,8 +34,7 @@
       "levels": [
         "expert"
       ],
-      "unlockedBy": "advanced",
-      "lockedHint": "조금 어려움 10문제를 끝내면 열려요"
+      "unlockedBy": "advanced"
     }
   ],
   "resultLabels": [
