@@ -11,18 +11,25 @@ const ANSWER_TABLE = [
   'O X O X X X O O O X', 'O O X O X X X O O X', 'O O X O O O O X X O',
 ].join(' ').split(' ');
 
+// 고난이도 추가 문항 151~170 정답 (사용자 제공 원고)
+const EXPERT_ANSWERS = 'X X X X X X X X X O X O X X X O X O X O'.split(' ');
+
+const original = questions.filter((q) => q.id <= 150);
+const expert = questions.filter((q) => q.id > 150);
+
 describe('questions.json', () => {
-  it('150문항, ID 1~150 중복·누락 없음', () => {
-    expect(questions).toHaveLength(150);
-    expect(questions.map((q) => q.id)).toEqual(Array.from({ length: 150 }, (_, i) => i + 1));
+  it('원문 150 + 고난이도 20 = 170문항, ID 1~170 중복·누락 없음', () => {
+    expect(questions).toHaveLength(170);
+    expect(questions.map((q) => q.id)).toEqual(Array.from({ length: 170 }, (_, i) => i + 1));
   });
 
   it('모든 문항이 검증을 통과한다', () => {
     expect(validateQuestions(questions).errors).toEqual([]);
   });
 
-  it('난이도 easy 80 / medium 50 / hard 20, 원문 번호 구간과 일치', () => {
-    for (const q of questions) {
+  it('난이도 easy 80 / medium 50 / hard 20 / expert 20, 번호 구간과 일치', () => {
+    for (const q of expert) expect(q.level, `#${q.id}`).toBe('expert');
+    for (const q of original) {
       const expected = q.id <= 80 ? 'easy' : q.id <= 130 ? 'medium' : 'hard';
       expect(q.level, `#${q.id}`).toBe(expected);
     }
@@ -30,13 +37,20 @@ describe('questions.json', () => {
 
   it('정답이 원문 정답표와 일치한다', () => {
     expect(ANSWER_TABLE).toHaveLength(150);
-    for (const q of questions) {
+    for (const q of original) {
       expect(q.answer ? 'O' : 'X', `#${q.id}`).toBe(ANSWER_TABLE[q.id - 1]);
     }
   });
 
-  it('source.number가 id와 같다', () => {
-    for (const q of questions) expect(q.source.number).toBe(q.id);
+  it('고난이도 정답이 원고와 일치한다', () => {
+    for (const q of expert) {
+      expect(q.answer ? 'O' : 'X', `#${q.id}`).toBe(EXPERT_ANSWERS[q.id - 151]);
+    }
+  });
+
+  it('source.number로 원고 번호를 추적한다', () => {
+    for (const q of original) expect(q.source.number).toBe(q.id);
+    for (const q of expert) expect(q.source.number).toBe(q.id - 150);
   });
 
   it('문항·해설에 PDF 변환 흔적(O/X 표기, 연속 공백)이 없다', () => {
@@ -54,6 +68,7 @@ describe('questions.json', () => {
 
   it('각 모드에 출제할 문항이 충분하다', () => {
     for (const mode of config.modes) {
+      if (mode.unlockedBy) expect(config.modes.some((m) => m.id === mode.unlockedBy), mode.id).toBe(true);
       const pool = questions.filter((q) => q.active && mode.levels.includes(q.level));
       expect(pool.length, mode.id).toBeGreaterThanOrEqual(config.questionCount);
     }

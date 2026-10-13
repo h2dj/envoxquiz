@@ -141,6 +141,19 @@ h1:focus {
   border-color: var(--yellow);
 }
 
+.mode-expert {
+  background: #2b3a30;
+  color: #fff;
+  border-color: var(--yellow);
+}
+
+.mode-card.is-locked {
+  background: var(--surface);
+  color: var(--muted);
+  border: 2px dashed var(--line);
+  box-shadow: none;
+}
+
 .mode-emoji {
   font-size: 36px;
   line-height: 1;
@@ -231,6 +244,11 @@ h1:focus {
 .badge-advanced {
   background: var(--yellow-soft);
   color: #6b5100;
+}
+
+.badge-expert {
+  background: #2b3a30;
+  color: #fff;
 }
 
 .question-text {
@@ -468,6 +486,19 @@ h1:focus {
   font-size: 17px;
 }
 
+.unlock-notice {
+  margin: 16px 0 0;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  background: var(--yellow-soft);
+  border: 2px solid var(--yellow);
+  font-size: 18px;
+}
+
+.btn-next-expert {
+  background: #2b3a30;
+}
+
 .result-actions {
   display: grid;
   gap: 12px;
@@ -535,7 +566,12 @@ h1:focus {
     padding-top: 48px;
   }
 
-  .question-text {
+  .badge-expert {
+  background: #2b3a30;
+  color: #fff;
+}
+
+.question-text {
     font-size: 28px;
   }
 }

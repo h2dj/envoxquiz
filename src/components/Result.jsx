@@ -3,11 +3,11 @@ import useFocusOnMount from './useFocusOnMount.js';
 
 const ox = (value) => (value ? 'O' : 'X');
 
-export default function Result({ quiz, mode, modes, labels, questionsById, onStart, onHome }) {
+export default function Result({ quiz, mode, modes, isUnlocked, labels, questionsById, onStart, onHome }) {
   const titleRef = useFocusOnMount();
   const total = quiz.questionIds.length;
   const grade = gradeFor(quiz.correctCount, total, labels);
-  const otherMode = modes.find((m) => m.id !== mode.id);
+  const nextMode = modes.find((m) => m.id === mode.next && isUnlocked(m));
   const wrong = quiz.answers.filter((a) => !a.correct);
 
   return (
@@ -21,15 +21,25 @@ export default function Result({ quiz, mode, modes, labels, questionsById, onSta
       {quiz.maxStreak >= 3 && <p className="streak">🔥 최대 {quiz.maxStreak}문제 연속 정답</p>}
       <p className="result-message">{grade.message}</p>
 
+      {nextMode?.unlockedBy === mode.id && (
+        <p className="unlock-notice">
+          {nextMode.emoji} <strong>{nextMode.label}</strong> 도전이 열렸어요!
+        </p>
+      )}
+
       <div className="result-actions">
-        <button type="button" className="btn-primary" onClick={() => onStart(mode.id)}>
-          다시 도전 (새 문제)
-        </button>
-        {otherMode && (
-          <button type="button" className="btn-secondary" onClick={() => onStart(otherMode.id)}>
-            {otherMode.emoji} {otherMode.label}으로 도전
+        {nextMode && (
+          <button type="button" className={`btn-primary btn-next-${nextMode.id}`} onClick={() => onStart(nextMode.id)}>
+            {nextMode.emoji} {nextMode.label} 도전하기
           </button>
         )}
+        <button
+          type="button"
+          className={nextMode ? 'btn-secondary' : 'btn-primary'}
+          onClick={() => onStart(mode.id)}
+        >
+          {mode.label} 다시 도전 (새 문제)
+        </button>
         <button type="button" className="btn-text" onClick={onHome}>
           처음으로
         </button>

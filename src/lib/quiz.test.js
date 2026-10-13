@@ -6,6 +6,7 @@ import {
   answerCurrent,
   createQuiz,
   gradeFor,
+  isModeUnlocked,
   isRestorable,
   phaseOf,
   pickQuestionIds,
@@ -15,6 +16,7 @@ import {
 
 const easy = config.modes.find((m) => m.id === 'easy');
 const advanced = config.modes.find((m) => m.id === 'advanced');
+const expert = config.modes.find((m) => m.id === 'expert');
 const byId = new Map(questions.map((q) => [q.id, q]));
 
 // 재현 가능한 난수
@@ -35,6 +37,14 @@ describe('출제', () => {
     }
   });
 
+  it('고난이도는 151~170번에서만 10문항', () => {
+    for (let seed = 1; seed <= 200; seed++) {
+      const ids = createQuiz(expert, questions, 10, { rng: seeded(seed) }).questionIds;
+      expect(new Set(ids).size).toBe(10);
+      expect(ids.every((id) => id >= 151 && id <= 170)).toBe(true);
+    }
+  });
+
   it('active=false 문항은 출제되지 않는다', () => {
     const data = questions.map((q) => (q.id <= 75 ? { ...q, active: false } : q));
     for (let seed = 1; seed <= 50; seed++) {
@@ -45,7 +55,7 @@ describe('출제', () => {
 
   it('같은 유사 그룹 문항은 한 회차에 함께 나오지 않는다', () => {
     for (let seed = 1; seed <= 500; seed++) {
-      for (const mode of [easy, advanced]) {
+      for (const mode of [easy, advanced, expert]) {
         const groups = createQuiz(mode, questions, 10, { rng: seeded(seed) })
           .questionIds.map((id) => byId.get(id).similarGroup)
           .filter(Boolean);
@@ -66,6 +76,17 @@ describe('출제', () => {
   it('poolForMode는 모드의 난이도만 고른다', () => {
     expect(poolForMode(questions, easy)).toHaveLength(80);
     expect(poolForMode(questions, advanced)).toHaveLength(70);
+    expect(poolForMode(questions, expert)).toHaveLength(20);
+  });
+});
+
+describe('고난이도 잠금', () => {
+  it('조금 어려움을 끝내기 전에는 잠겨 있다', () => {
+    expect(isModeUnlocked(easy, [])).toBe(true);
+    expect(isModeUnlocked(advanced, [])).toBe(true);
+    expect(isModeUnlocked(expert, [])).toBe(false);
+    expect(isModeUnlocked(expert, ['easy'])).toBe(false);
+    expect(isModeUnlocked(expert, ['advanced'])).toBe(true);
   });
 });
 
