@@ -60,6 +60,10 @@ describe('questions.json', () => {
     }
   });
 
+  it('해설에 참가자가 알 수 없는 원고 표현(문서에서는 …)이 없다', () => {
+    for (const q of questions) expect(q.explanation, `#${q.id}`).not.toMatch(/문서/);
+  });
+
   it('유사 그룹은 2문항 이상으로 구성된다', () => {
     const counts = {};
     for (const q of questions) if (q.similarGroup) counts[q.similarGroup] = (counts[q.similarGroup] ?? 0) + 1;
